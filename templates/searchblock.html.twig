@@ -1,0 +1,16 @@
+<div class="background-image">
+    {% if content.background %}
+    <img src="{{ file_url(content.background) }}" />
+    {% endif %}
+</div>
+
+<div class="search_block">
+    {{ content.form }}
+    <div class="tags">
+        {% for tag in content.tagcloud %}
+            <div class="tag">
+                <a href="{{ tag.url }}">{{ tag.title }}</a>
+            </div>
+        {% endfor %}
+    </div>
+</div>

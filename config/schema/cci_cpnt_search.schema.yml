@@ -1,0 +1,10 @@
+block.settings.cci_search:
+  type: block_settings
+  label: 'CCI search settings'
+  mapping:
+    background_image:
+      type: integer
+      label: 'Background image id'
+    links:
+      type: string
+      label: 'links in serialize mode'

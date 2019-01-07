@@ -1,0 +1,41 @@
+uuid: fcde2fb6-5fe7-4f30-8d9a-78a4f978836a
+langcode: fr
+status: true
+dependencies:
+  module:
+    - cci_cpnt_search
+    - system
+  theme:
+    - cci_drome_theme
+id: ccirecherche
+theme: cci_drome_theme
+region: pre_content_full
+weight: -7
+provider: null
+plugin: cci_search_block
+settings:
+  id: cci_search_block
+  label: 'CCI recherche'
+  provider: cci_cpnt_search
+  label_display: '0'
+  background_image: '5'
+  links: 'a:8:{i:1;a:2:{s:5:"title";s:21:"Trouver une formation";s:3:"url";s:7:"<front>";}i:2;a:2:{s:5:"title";s:26:"Démarrer votre entreprise";s:3:"url";s:7:"<front>";}i:3;a:2:{s:5:"title";s:19:"Trouver un commerce";s:3:"url";s:7:"<front>";}i:4;a:2:{s:5:"title";s:15:"Voir l’agenda";s:3:"url";s:7:"/agenda";}i:5;a:2:{s:5:"title";s:47:"Financer votre projet de reprise d’entreprise";s:3:"url";s:7:"<front>";}i:6;a:2:{s:5:"title";s:21:"Accéder au CCI Store";s:3:"url";s:7:"<front>";}i:7;a:2:{s:5:"title";s:19:"Trouver un document";s:3:"url";s:7:"<front>";}i:8;a:2:{s:5:"title";s:0:"";s:3:"url";s:0:"";}}'
+  url: ''
+  app_id: ''
+  hide_header: ''
+  stream: ''
+  show_faces: ''
+  title: ''
+  width: ''
+  height: ''
+  hide_cta: ''
+  small_cta: ''
+  small_header: ''
+  adapt_container_width: ''
+  language: {  }
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

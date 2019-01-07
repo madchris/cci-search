@@ -1,0 +1,7 @@
+search:
+  version: VERSION
+  js:
+    js/search.js: {}
+  css:
+    layout:
+      css/search.css: {}
