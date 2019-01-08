@@ -37,7 +37,7 @@
   top: 23px;
   right: 23px;
 }
-#cci-search-form #edit-submit{
+#cci-search-form .form-submit{
   display: none;
 }
 #cci-search-form .search-icon{
