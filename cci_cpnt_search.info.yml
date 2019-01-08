@@ -12,5 +12,4 @@ datestamp: 1511982791
 dependencies:
   - search
   - search_api
-  - search_api_db
   - lightning_search
